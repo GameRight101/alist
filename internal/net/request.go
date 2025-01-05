@@ -28,7 +28,7 @@ const DefaultDownloadPartSize = 1024 * 1024 * 10
 const DefaultDownloadConcurrency = 2
 
 // DefaultPartBodyMaxRetries is the default number of retries to make when a part fails to download.
-const DefaultPartBodyMaxRetries = 3
+const DefaultPartBodyMaxRetries = 99
 
 type Downloader struct {
 	PartSize int
